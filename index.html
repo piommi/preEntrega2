@@ -14,41 +14,56 @@
 </head>
 
 <body class="container-fluid">
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark">
+        <div class="row py-2 px-lg-5">
+            <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center text-white">
+                    <small><i class="fa fa-phone-alt mr-2">
+                        </i>+54 9 341-3493721.</small>
+                    <small class="px-3">|</small>
+                    <small><i class="fa fa-envelope mr-2"></i>Horarios de atención: Lunes a Sábados de 9 a
+                        19.30hs</small>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- HEADER -->
-
-    <header class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"></a>
-            <img class="logo" src="img/logo.png" alt="Logo venta">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 fuentes">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/libreria.html">Librería</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/jugueteria.html">Juguetería</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/bazar.html">Bazar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/ubicacion.html">Donde Estamos</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="busqueda">
-                    <input class="form-control me-2" type="Busqueda" placeholder="Busqueda" aria-label="Busqueda">
-                    <button class="btn colorBtn" type="submit">Buscar</button>
-                </form>
-            </div>
+    <header class="navbar navbar-expand-lg bg-body-tertiary>
+        <div class= " container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <img class="logo" src="img/logo.png" alt="Logo venta">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fuentes">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">Categorías</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="pages/libreria.html">Librería</a></li>
+                        <li><a class="dropdown-item" href="pages/jugueteria.html">Juguetería</a></li>
+                        <li><a class="dropdown-item" href="pages/bazar.html">Bazar</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/ubicacion.html">Donde Estamos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/contacto.html">CONTACTANOS</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="busqueda">
+                <input class="form-control me-2" type="Busqueda" placeholder="Busqueda" aria-label="Busqueda">
+                <button class="btn colorBtn" type="submit">Buscar</button>
+            </form>
+        </div>
         </div>
     </header>
 
@@ -108,21 +123,63 @@
             </div>
         </div>
 
-        <!-- FOOTER -->
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top btnBack"><i
+                class="fa fa-angle-double-up"></i>SUBIR</a>
 
-        <footer class="py-3 my-4">
-            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Inicio</a></li>
-                <li class="nav-item"><a href="pages/libreria.html"
-                        class="nav-link px-2 text-body-secondary">Librería</a></li>
-                <li class="nav-item"><a href="pages/jugueteria.html"
-                        class="nav-link px-2 text-body-secondary">Juguetería</a></li>
-                <li class="nav-item"><a href="pages/bazar.html" class="nav-link px-2 text-body-secondary">Bazar</a></li>
-                <li class="nav-item"><a href="pages/ubicacion.html" class="nav-link px-2 text-body-secondary">Donde
-                        Estamos</a></li>
-            </ul>
-            <ul class="nav col-md-4 justify-content-right list-unstyled d-flex">
-                <p class="text-center text-body-secondary">&copy; 2023 Company, Inc</p>
+        <!-- FOOTER -->
+        <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
+            <div class="row pt-5">
+                <div class="col-lg-7 col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 mb-5">
+                            <h3 class="coloresFooter mb-4">Nuestros Datos</h3>
+                            <p><i class="fa fa-map-marker-alt mr-2"></i>Av. Las Heras 2214, Buenos Aires.</p>
+                            <p><i class="fa fa-phone-alt mr-2"></i>+54 9 341-3493721</p>
+                            <p><i class="fa fa-envelope mr-2"></i>iommi@hotmail.com</p>
+                            <div class="d-flex justify-content-start mt-4">
+                                <a class="btn btn-outline-light btn-social mr-2" href="#"><i
+                                        class="fab fa-facebook-f"><img class="iconito" src="img/facebook.svg"
+                                            alt="fb"></i></a>
+                                <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-instagram"><img
+                                            class="iconito" src="img/instagram.svg" alt="ig"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-5">
+                            <h3 class="coloresFooter mb-4">Menú rápido</h3>
+                            <div class="d-flex flex-column justify-content-start">
+                                <a class="text-white mb-2" href="index.html"><i
+                                        class="fa fa-angle-right mr-2"></i>Home</a>
+                                <a class="text-white mb-2" href="./pages/libreria.html"><i
+                                        class="fa fa-angle-right mr-2"></i>Librería</a>
+                                <a class="text-white mb-2" href="./pages/jugueteria.html"><i
+                                        class="fa fa-angle-right mr-2"></i>Juguetería</a>
+                                <a class="text-white mb-2" href="./pages/bazar.html"><i
+                                        class="fa fa-angle-right mr-2"></i>Bazar</a>
+                                <a class="text-white mb-2" href="./pages/ubicacion.html"><i
+                                        class="fa fa-angle-right mr-2"></i>Donde Estamos</a>
+                                <a class="text-white" href="./pages/contacto.html"><i
+                                        class="fa fa-angle-right mr-2"></i>Contactanos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 mb-5">
+                    <h3 class="coloresFooter mb-4">Novedades</h3>
+                    <p>Suscribite a nuestro newsletter y recibí las últimas novedades, promociones e ingresos.</p>
+                    <div class="w-100">
+                        <div class="input-group">
+                            <input type="text" class="form-control border-light" style="padding: 10px;"
+                                placeholder="Your Email Address">
+                            <div class="input-group-append">
+                                <button class="btnRegistro px-4">Registrate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="text-center text-body-secondary">&copy; 2023 Company, Inc</p>
         </footer>
 
         <!-- JS BS -->

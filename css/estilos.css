@@ -14,6 +14,10 @@
     color: #fff;
 }
 
+.contacto {
+text-decoration: rgb(139, 3, 3);
+}
+
 header {
     border-bottom: 3px solid rgb(136, 23, 23);
 }
@@ -58,6 +62,12 @@ header {
     margin: 0 auto;
 }
 
+/*CONTACTO*/
+
+.msj {
+    color: rgb(139, 3, 3);
+}
+
 /*PRODUCTOS*/
 
 .tituloProductos {
@@ -82,4 +92,23 @@ header {
 
 /*FOOTER*/
 
+btnBack {
+    background-color: red;
+}
 
+.iconito{ 
+    background-color: white;
+    padding: 20px;
+}
+
+.coloresFooter {
+    color: rgb(253, 37, 37);
+    text-decoration: underline rgb(133, 125, 124);
+}
+
+.btnRegistro {
+    color: rgb(241, 236, 236);
+    font-size: 20px;
+    background-color: rgb(139, 3, 3);
+    padding: 10px;
+}
